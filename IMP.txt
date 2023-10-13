@@ -67,6 +67,7 @@ VCC: 2
 DIO: 18
 CLK: 16
 
+wget https://raspberrytips.nl/files/tm1637.py
 Code: 
 import sys
 import time
