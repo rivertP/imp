@@ -366,6 +366,11 @@ while (True):
 ----------------------------------------------------------------------------------------------
 Prac10: Fingerprint Scanner
 
+Red: 5V
+Green: 3V3
+Yellow: RDx
+Black: GND
+
 sudo pip3 install pyfingerprint
 
 Code: 
