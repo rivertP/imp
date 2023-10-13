@@ -97,7 +97,7 @@ git clone https://github.com/salmanfarisvp/TelegramBot.git
 python telegrambot.py
 ----------------------------------------------------------------------------------------------
 
-PRAC4:
+PRAC4: Raspberry Pi GPS Module Interfacing.
 VCC: 2
 TX: 10
 GND: 6
@@ -142,7 +142,7 @@ For running go to the folder where you saved the file:
 first run the program (if this doesn't work)
 sudo cat /dev/tty/AMA0
 ----------------------------------------------------------------------------------------------
-PRAC5:
+PRAC5: IoT based Web Controlled Home Automation using Raspberry Pi.
 GND: 6
 VCC: 2
 IN1: 37
@@ -163,7 +163,7 @@ except KeyboardInterrupt:
 	pass
 	GPIO.cleanup()
 ----------------------------------------------------------------------------------------------
-PRAC6:
+PRAC6: Interfacing Raspberry Pi with Pi Camera
 sudo raspi-config
 Interface->Enable Legacy Camera
 sudo reboot
@@ -205,7 +205,7 @@ print("video recording stopped")
 To Play the video:
 Omxplayer demo.h264
 ----------------------------------------------------------------------------------------------
-PRAC7:
+PRAC7: Interfacing Raspberry Pi with RFID.
 5V: 4
 GND: 6
 SDA: 3
@@ -256,7 +256,7 @@ Run i2cdetect –yes 1 to check whether the I2C device is recognized.
 Run nfc-poll to scan the RFID tag and you can read information on the card
 
 ----------------------------------------------------------------------------------------------
-PRAC8:
+PRAC8: 16x2 LCD
 GND: 6
 VCC: 4
 SDA: 3
@@ -282,7 +282,7 @@ finally:
 if rpi_lcd not install
 sudo pip install rpi_lcd
 ----------------------------------------------------------------------------------------------
-PRAC9:
+PRAC9: Raspberry Pi Based Oscilloscope
 VDD: 1
 GND: 6
 SDA: 3
