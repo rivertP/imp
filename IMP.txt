@@ -219,9 +219,9 @@ sudo apt-get install libusb-dev libpcsclite-dev i2c-tools
 
 cd ~
 wget https://github.com/nfc-tools/libnfc/releases/download/libnfc-1.8.0/libnfc-1.8.0.tar.bz2
-tar -xf libnfc-1.7.1.tar.bz2 
+tar -xf libnfc-1.8.0.tar.bz2 
 
-cd libnfc-1.7.1
+cd libnfc-1.8.0
 ./configure --prefix=/usr --sysconfdir=/etc
 make
 sudo make install 
